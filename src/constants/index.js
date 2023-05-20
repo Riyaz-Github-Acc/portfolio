@@ -25,6 +25,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    phone,
+    email,
+    address,
 } from "../assets";
 
 export const navLinks = [
@@ -139,6 +142,23 @@ const technologies = [
     // },
 ];
 
+const contacts = [
+    {
+        title: "+91 8270474125",
+        icon: phone,
+    },
+
+    {
+        title: "riyazofficeid@gmail.com",
+        icon: email,
+    },
+
+    {
+        title: "Coimbatore, TamilNadu",
+        icon: address,
+    },
+];
+
 const experiences = [
     {
         title: "Process Associate",
@@ -219,4 +239,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, contacts };

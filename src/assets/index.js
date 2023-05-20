@@ -31,6 +31,10 @@ import jest from "./tech/jest.png";
 import reacttestinglibrary from "./tech/reacttestinglibrary.png";
 import webpack from "./tech/webpack.png";
 
+import phone from "./contact/phone.png";
+import email from "./contact/email.png";
+import address from "./contact/address.png";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -65,6 +69,9 @@ export {
     reacttestinglibrary,
     webpack,
     github2,
+    phone,
+    email,
+    address,
     carrent,
     jobit,
     tripguide,
