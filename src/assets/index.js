@@ -1,6 +1,7 @@
 import logo from "./logo.jpg";
 import favicon from "./favicon.jpg";
 import monitor from "./monitor.png";
+import github2 from "./github-2.png";
 
 import backend from "./backend.png";
 import creator from "./creator.png";
@@ -63,6 +64,7 @@ export {
     jest,
     reacttestinglibrary,
     webpack,
+    github2,
     carrent,
     jobit,
     tripguide,

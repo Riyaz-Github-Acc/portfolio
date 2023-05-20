@@ -13,6 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
+    github2,
     mui,
     exjs,
     nextjs,
@@ -76,41 +77,41 @@ const technologies = [
     //     name: "JavaScript",
     //     icon: javascript,
     // },
-    {
-        name: "TypeScript",
-        icon: typescript,
-    },
-    {
-        name: "Tailwind CSS",
-        icon: tailwind,
-    },
+    // {
+    //     name: "TypeScript",
+    //     icon: typescript,
+    // },
+    // {
+    //     name: "Tailwind CSS",
+    //     icon: tailwind,
+    // },
     // {
     //     name: "Material UI",
     //     icon: mui,
     // },
     {
-        name: "React JS",
-        icon: reactjs,
+        name: "MongoDB",
+        icon: mongodb,
     },
-    {
-        name: "Redux Toolkit",
-        icon: redux,
-    },
-    // {
-    //     name: "Node JS",
-    //     icon: nodejs,
-    // },
     {
         name: "Express JS",
         icon: exjs,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
+        name: "React JS",
+        icon: reactjs,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
     },
     {
         name: "Next JS",
         icon: nextjs,
+    },
+    {
+        name: "Redux Toolkit",
+        icon: redux,
     },
     {
         name: "Git",
@@ -172,6 +173,7 @@ const projects = [
         ],
         image: carrent,
         source_code_link: "https://github.com/",
+        project_link: "https://riyazportfoliosite.netlify.app/",
     },
     {
         name: "Job IT",
