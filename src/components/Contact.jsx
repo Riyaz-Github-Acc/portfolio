@@ -22,15 +22,17 @@ const Contact = () => {
                 <p className={styles.sectionSubText}>Get in touch</p>
                 <h3 className={styles.sectionHeadText}>Contact</h3>
 
-                <div className="mt-5 ml-5 flex flex-col gap-4">
+                <div className="mt-5 ml-0 xs:ml-5 flex flex-col gap-4">
                     {contacts.map((contact) => (
                         <div className=" flex items-center gap-4">
                             <img
                                 src={contact.icon}
                                 alt={contact.title}
-                                className="w-8 h-8"
+                                className="w-6 h-6 sm:w-8 sm:h-8"
                             />
-                            <h2 className="text-[20px]">{contact.title}</h2>
+                            <h2 className="text-[16px] sm:text-[20px]">
+                                {contact.title}
+                            </h2>
                         </div>
                     ))}
                 </div>

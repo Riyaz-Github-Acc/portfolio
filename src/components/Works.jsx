@@ -80,7 +80,7 @@ const Works = () => {
         <>
             <motion.div variants={textVariant()}>
                 <p className={`${styles.sectionSubText} `}>My work</p>
-                <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+                <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
             </motion.div>
 
             <div className="w-full flex">
@@ -110,4 +110,4 @@ const Works = () => {
     );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "work");
