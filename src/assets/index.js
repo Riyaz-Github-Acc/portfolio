@@ -1,5 +1,6 @@
 import logo from "./logo.jpg";
 import favicon from "./favicon.jpg";
+import heroImg from "./hero-img.png";
 import monitor from "./monitor.png";
 import github2 from "./github-2.png";
 
@@ -29,7 +30,6 @@ import nextjs from "./tech/nextjs.png";
 import github from "./tech/github.png";
 import jest from "./tech/jest.png";
 import reacttestinglibrary from "./tech/reacttestinglibrary.png";
-import webpack from "./tech/webpack.png";
 
 import phone from "./contact/phone.png";
 import email from "./contact/email.png";
@@ -40,39 +40,39 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
-    logo,
-    favicon,
-    monitor,
-    backend,
-    creator,
-    mobile,
-    web,
-    github,
-    menu,
-    close,
-    css,
-    figma,
-    git,
-    html,
-    javascript,
-    mongodb,
-    nodejs,
-    reactjs,
-    redux,
-    tailwind,
-    typescript,
-    threejs,
-    mui,
-    exjs,
-    nextjs,
-    jest,
-    reacttestinglibrary,
-    webpack,
-    github2,
-    phone,
-    email,
-    address,
-    carrent,
-    jobit,
-    tripguide,
+  logo,
+  favicon,
+  heroImg,
+  monitor,
+  backend,
+  creator,
+  mobile,
+  web,
+  github,
+  menu,
+  close,
+  css,
+  figma,
+  git,
+  html,
+  javascript,
+  mongodb,
+  nodejs,
+  reactjs,
+  redux,
+  tailwind,
+  typescript,
+  threejs,
+  mui,
+  exjs,
+  nextjs,
+  jest,
+  reacttestinglibrary,
+  github2,
+  phone,
+  email,
+  address,
+  carrent,
+  jobit,
+  tripguide,
 };
