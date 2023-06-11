@@ -8,7 +8,6 @@ import {
   Works,
   Experience,
   Contact,
-  StarsCanvas,
 } from "./components";
 
 const App = () => {
@@ -25,7 +24,6 @@ const App = () => {
         <Works />
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
