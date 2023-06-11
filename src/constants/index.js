@@ -176,19 +176,31 @@ const projects = [
   {
     name: "Recipe App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "The recipe app lets users post, save, and delete recipes, building their own collection. Discover new recipes from others and enjoy a seamless cooking experience with this user-friendly app.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
         name: "mongodb",
-        color: "green-text-gradient",
+        color: "text-green-500",
       },
       {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "expressjs",
+        color: "text-gray-400",
+      },
+      {
+        name: "react",
+        color: "text-blue-500",
+      },
+      {
+        name: "nodejs",
+        color: "text-lime-500",
+      },
+      {
+        name: "css",
+        color: "text-sky-500",
+      },
+      {
+        name: "firebase",
+        color: "text-yellow-500",
       },
     ],
     image: recipeapp,
@@ -198,19 +210,28 @@ const projects = [
   {
     name: "Aibnb Clone",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The Airbnb clone is a global platform for finding and booking accommodations. Explore a wide range of listings based on location, amenities, and pricing to easily book your preferred property.",
     tags: [
       {
+        name: "nextjs",
+        color: "text-white-400",
+      },
+
+      {
         name: "react",
-        color: "blue-text-gradient",
+        color: "text-blue-500",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "mongodb",
+        color: "text-green-500",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "tailwindcss",
+        color: "text-sky-500",
+      },
+      {
+        name: "cloudinary",
+        color: "text-blue-600",
       },
     ],
     image: airbnbclone,
@@ -220,19 +241,31 @@ const projects = [
   {
     name: "Hotel Booking App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The hotel booking app offers a users to search and book hotels globally. With a vast selection of accommodations, users can easily find their desired hotel based on location, dates, and preferences.",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "mongodb",
+        color: "text-green-500",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "expressjs",
+        color: "text-gray-400",
       },
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "react",
+        color: "text-blue-500",
+      },
+      {
+        name: "nodejs",
+        color: "text-lime-500",
+      },
+      {
+        name: "scss",
+        color: "text-sky-500",
+      },
+      {
+        name: "firebase",
+        color: "text-yellow-500",
       },
     ],
     image: hotelbookingapp,
