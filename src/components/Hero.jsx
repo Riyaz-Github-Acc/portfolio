@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { heroImg } from "../assets";
 
 import { styles } from "../styles";
-// import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   return (
@@ -28,8 +27,6 @@ const Hero = () => {
           </h1>
         </div>
       </div>
-
-      {/* <ComputersCanvas /> */}
 
       <div className="relative md:w-[600px] w-[300px] md:top-[370px] top-[390px] flex items-center justify-center mx-auto">
         <img src={heroImg} alt="Hero Image" />

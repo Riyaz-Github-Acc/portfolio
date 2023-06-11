@@ -23,7 +23,7 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import firebase from "./tech/firebase.png";
 import mui from "./tech/mui.png";
 import exjs from "./tech/exjs.png";
 import nextjs from "./tech/nextjs.png";
@@ -35,9 +35,9 @@ import phone from "./contact/phone.png";
 import email from "./contact/email.png";
 import address from "./contact/address.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import recipeapp from "./recipe-app.png";
+import airbnbclone from "./airbnb-clone.png";
+import hotelbookingapp from "./booking-app.png";
 
 export {
   logo,
@@ -62,7 +62,7 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
+  firebase,
   mui,
   exjs,
   nextjs,
@@ -72,7 +72,7 @@ export {
   phone,
   email,
   address,
-  carrent,
-  jobit,
-  tripguide,
+  recipeapp,
+  airbnbclone,
+  hotelbookingapp,
 };

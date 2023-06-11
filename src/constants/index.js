@@ -13,17 +13,16 @@ import {
   nodejs,
   mongodb,
   git,
-  github2,
+  firebase,
   mui,
   exjs,
   nextjs,
   github,
   jest,
   reacttestinglibrary,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  recipeapp,
+  airbnbclone,
+  hotelbookingapp,
   phone,
   email,
   address,
@@ -67,42 +66,48 @@ const services = [
 ];
 
 const technologies = [
-  // {
-  //     name: "HTML 5",
-  //     icon: html,
-  // },
-  // {
-  //     name: "CSS 3",
-  //     icon: css,
-  // },
-  // {
-  //     name: "JavaScript",
-  //     icon: javascript,
-  // },
-  // {
-  //     name: "TypeScript",
-  //     icon: typescript,
-  // },
-  // {
-  //     name: "Tailwind CSS",
-  //     icon: tailwind,
-  // },
-  // {
-  //     name: "Material UI",
-  //     icon: mui,
-  // },
+  {
+    name: "HTML 5",
+    icon: html,
+  },
+  {
+    name: "CSS 3",
+    icon: css,
+  },
+  {
+    name: "JavaScript",
+    icon: javascript,
+  },
   {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Express JS",
-    icon: exjs,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+  {
+    name: "Firebase",
+    icon: firebase,
+  },
+  {
+    name: "Material UI",
+    icon: mui,
+  },
+  ,
+  {
+    name: "Express JS",
+    icon: exjs,
+  },
+
   {
     name: "Node JS",
     icon: nodejs,
@@ -135,10 +140,6 @@ const technologies = [
   //     name: "Webpack",
   //     icon: webpack,
   //   },
-  // {
-  //     name: "Three JS",
-  //     icon: threejs,
-  // },
 ];
 
 const contacts = [
@@ -173,7 +174,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Recipe App",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -190,12 +191,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-    project_link: "https://riyazportfoliosite.netlify.app/",
+    image: recipeapp,
+    source_code_link: "https://github.com/Riyaz-Github-Acc/mern-recipe-app",
+    project_link: "https://recipeappmern.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "Aibnb Clone",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -212,11 +213,12 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: airbnbclone,
+    source_code_link: "https://github.com/Riyaz-Github-Acc/next-airbnb",
+    project_link: "https://nextjs-rent-app.vercel.app/",
   },
   {
-    name: "Trip Guide",
+    name: "Hotel Booking App",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
@@ -233,8 +235,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: hotelbookingapp,
+    source_code_link:
+      "https://github.com/Riyaz-Github-Acc/ui-mern-bookings-app/",
+    project_link: "https://hotelbookingappmern.netlify.app/",
   },
 ];
 
