@@ -23,6 +23,8 @@ import {
   recipeapp,
   airbnbclone,
   hotelbookingapp,
+  admindashboardbookingapp,
+  reactcommerce,
   phone,
   email,
   address,
@@ -272,6 +274,68 @@ const projects = [
     source_code_link:
       "https://github.com/Riyaz-Github-Acc/ui-mern-bookings-app/",
     project_link: "https://hotelbookingappmern.netlify.app/",
+  },
+
+  {
+    name: "Admin Dashboard",
+    description: "Admin Dashboard for the Booking App.",
+    tags: [
+      {
+        name: "mongodb",
+        color: "text-green-500",
+      },
+      {
+        name: "expressjs",
+        color: "text-gray-400",
+      },
+      {
+        name: "react",
+        color: "text-blue-500",
+      },
+      {
+        name: "nodejs",
+        color: "text-lime-500",
+      },
+      {
+        name: "scss",
+        color: "text-sky-500",
+      },
+      {
+        name: "cloudinary",
+        color: "text-blue-600",
+      },
+    ],
+    image: admindashboardbookingapp,
+    source_code_link:
+      "https://github.com/Riyaz-Github-Acc/hotelbookingapp-admindashboard",
+    project_link: "https://hotelbookingapp-admindashboard.netlify.app/",
+  },
+
+  {
+    name: "React Commerce",
+    description:
+      "Effortlessly browse, filter, and add products to your cart for seamless checkout on our ecommerce website.",
+    tags: [
+      {
+        name: "react",
+        color: "text-blue-500",
+      },
+      {
+        name: "redux",
+        color: "text-purple-500",
+      },
+      {
+        name: "scss",
+        color: "text-sky-500",
+      },
+      {
+        name: "strapi",
+        color: "text-blue-700",
+      },
+    ],
+    image: reactcommerce,
+    source_code_link: "https://github.com/Riyaz-Github-Acc/react-commerce",
+    project_link: "https://ecommercewebsitereact.netlify.app/",
   },
 ];
 

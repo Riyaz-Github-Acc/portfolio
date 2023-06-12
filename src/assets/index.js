@@ -38,6 +38,8 @@ import address from "./contact/address.png";
 import recipeapp from "./recipe-app.png";
 import airbnbclone from "./airbnb-clone.png";
 import hotelbookingapp from "./booking-app.png";
+import admindashboardbookingapp from "./booking-app-admin-dashboard.png";
+import reactcommerce from "./react-commerce.png";
 
 export {
   logo,
@@ -75,4 +77,6 @@ export {
   recipeapp,
   airbnbclone,
   hotelbookingapp,
+  admindashboardbookingapp,
+  reactcommerce,
 };
