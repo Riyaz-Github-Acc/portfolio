@@ -25,6 +25,7 @@ import {
   hotelbookingapp,
   admindashboardbookingapp,
   reactcommerce,
+  merneshopapi,
   phone,
   email,
   address,
@@ -175,6 +176,33 @@ const experiences = [
 ];
 
 const projects = [
+  {
+    name: "MERNeShop API",
+    description:
+      "“MERNeShop API” is a powerful and versatile application programming interface (API) designed to revolutionize the way you handle online selling and shopping.",
+    tags: [
+      {
+        name: "mongodb",
+        color: "text-green-500",
+      },
+      {
+        name: "expressjs",
+        color: "text-gray-400",
+      },
+      {
+        name: "nodejs",
+        color: "text-lime-500",
+      },
+      {
+        name: "cloudinary",
+        color: "text-blue-600",
+      },
+    ],
+    image: merneshopapi,
+    source_code_link: "https://github.com/Riyaz-Github-Acc/mern-e-shop-api",
+    project_link: "https://mern-e-shop-api.onrender.com/",
+  },
+
   {
     name: "Recipe App",
     description:
