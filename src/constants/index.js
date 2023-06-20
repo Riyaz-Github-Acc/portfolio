@@ -179,7 +179,7 @@ const projects = [
   {
     name: "MERNeShop API",
     description:
-      "“MERNeShop API” is a powerful and versatile application programming interface (API) designed to revolutionize the way you handle online selling and shopping.",
+      "This ECommerce API offers a wide range of endpoints and functionalities to manage products, inventory, orders, customers, payments, and more.",
     tags: [
       {
         name: "mongodb",
