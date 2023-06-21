@@ -169,7 +169,7 @@ const experiences = [
     date: "Aug 2021 - Jul 2022",
   },
   {
-    title: "Web Designer",
+    title: "Frontend Developer",
     company_name: "Designosoft",
     date: "Aug 2022 - Apr 2023",
   },
