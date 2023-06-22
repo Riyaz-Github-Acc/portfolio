@@ -42,6 +42,9 @@ import hotelbookingapp from "./booking-app.png";
 import admindashboardbookingapp from "./booking-app-admin-dashboard.png";
 import reactcommerce from "./react-commerce.png";
 
+import reactcert from "./certificate/React JS Certificate.jpg";
+import nodecert from "./certificate/Node JS Certificate.jpg";
+
 export {
   logo,
   favicon,
@@ -81,4 +84,6 @@ export {
   admindashboardbookingapp,
   reactcommerce,
   merneshopapi,
+  reactcert,
+  nodecert,
 };

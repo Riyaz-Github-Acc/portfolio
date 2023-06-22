@@ -48,12 +48,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I have experience in TypeScript and JavaScript, and I am proficient in
-        frameworks like React JS, Node JS, and Express JS. I am a quick learner
-        and I am eager to learn new things. I am also a team player and I am
-        able to collaborate effectively with others. I am confident that I can
-        use my skills and experience to contribute to your company and help you
-        solve real-world problems.
+        I have experience in React JS, Html and Css and I am proficient in
+        frameworks like Node JS, Express JS and database like MongoDB. I am a
+        quick learner and I am eager to learn new things. I am also a team
+        player and I am able to collaborate effectively with others. I am
+        confident that I can use my skills and experience to contribute to your
+        company and help you solve real-world problems.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap justify-center gap-10">

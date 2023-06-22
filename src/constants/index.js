@@ -1,5 +1,4 @@
 import {
-  mobile,
   backend,
   creator,
   web,
@@ -29,6 +28,8 @@ import {
   phone,
   email,
   address,
+  reactcert,
+  nodecert,
 } from "../assets";
 
 export const navLinks = [
@@ -44,6 +45,27 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+];
+
+const certificates = [
+  {
+    name: "React JS Certificate",
+    image: reactcert,
+    certificate_link:
+      "https://res.cloudinary.com/ds60krqho/image/upload/v1687410227/Portfolio/a81lmto75ucsxwuomu3t.jpg",
+  },
+  {
+    name: "Node JS Certificate",
+    image: nodecert,
+    certificate_link:
+      "https://res.cloudinary.com/ds60krqho/image/upload/v1687410227/Portfolio/r72texi2qblzk5yyerpg.jpg",
+  },
+  // {
+  //   name: "UI/UX Design Certificate",
+  //   image: nodecert,
+  //   certificate_link:
+  //     "https://res.cloudinary.com/ds60krqho/image/upload/v1687410227/Portfolio/r72texi2qblzk5yyerpg.jpg",
+  // },
 ];
 
 const services = [
@@ -367,4 +389,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects, contacts };
+export {
+  services,
+  technologies,
+  experiences,
+  projects,
+  contacts,
+  certificates,
+};

@@ -9,6 +9,7 @@ import {
   Experience,
   Contact,
 } from "./components";
+import Certificates from "./components/Certificates";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
+        <Certificates />
         <Experience />
         <Tech />
         <Works />

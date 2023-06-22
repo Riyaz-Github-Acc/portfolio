@@ -22,7 +22,7 @@ const Contact = () => {
 
         <div className="mt-5 ml-0 xs:ml-5 flex flex-col gap-4">
           {contacts.map((contact) => (
-            <div className=" flex items-center gap-4">
+            <div key={contact.title} className=" flex items-center gap-4">
               <img
                 src={contact.icon}
                 alt={contact.title}
