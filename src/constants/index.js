@@ -24,6 +24,8 @@ import {
   hotelbookingapp,
   admindashboardbookingapp,
   reactcommerce,
+  merneshopadmin,
+  merneshop,
   merneshopapi,
   phone,
   email,
@@ -199,24 +201,77 @@ const experiences = [
 
 const projects = [
   {
+    name: "MERNeShop Admin",
+    description:
+      "MERNeShop Admin Dashboard serves as a centralized hub, providing real-time insights and empowering businesses to make informed decisions.",
+    tags: [
+      {
+        name: "React",
+        color: "text-blue-500",
+      },
+      {
+        name: "Redux",
+        color: "text-purple-500",
+      },
+      {
+        name: "TailwindCSS",
+        color: "text-sky-500",
+      },
+      {
+        name: "RestAPI",
+        color: "text-rose-500",
+      },
+    ],
+    image: merneshopadmin,
+    source_code_link: "https://github.com/Riyaz-Github-Acc/mern-e-shop-admin",
+    project_link: "https://merneshop-admin.netlify.app",
+  },
+
+  {
+    name: "MERNeShop",
+    description:
+      "The Ecommerce Website let's you discover a wide array of products, effortlessly browse, apply advanced filters, and enjoy a seamless checkout experience. Add items to your cart with ease and complete your purchase securely, all in one place.",
+    tags: [
+      {
+        name: "React",
+        color: "text-blue-500",
+      },
+      {
+        name: "Redux",
+        color: "text-purple-500",
+      },
+      {
+        name: "TailwindCSS",
+        color: "text-sky-500",
+      },
+      {
+        name: "RestAPI",
+        color: "text-rose-500",
+      },
+    ],
+    image: merneshop,
+    source_code_link: "https://github.com/Riyaz-Github-Acc/mern-e-shop",
+    project_link: "https://merneshop.netlify.app/",
+  },
+  {
     name: "MERNeShop API",
     description:
       "This ECommerce API offers a wide range of endpoints and functionalities to manage products, inventory, orders, customers, payments, and more.",
     tags: [
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "text-green-500",
       },
       {
-        name: "expressjs",
+        name: "ExpressJS",
         color: "text-gray-400",
       },
       {
-        name: "nodejs",
+        name: "NodeJS",
         color: "text-lime-500",
       },
       {
-        name: "cloudinary",
+        name: "Cloudinary",
         color: "text-blue-600",
       },
     ],
@@ -231,27 +286,27 @@ const projects = [
       "The recipe app lets users post, save, and delete recipes, building their own collection. Discover new recipes from others and enjoy a seamless cooking experience with this user-friendly app.",
     tags: [
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "text-green-500",
       },
       {
-        name: "expressjs",
+        name: "ExpressJS",
         color: "text-gray-400",
       },
       {
-        name: "react",
+        name: "React",
         color: "text-blue-500",
       },
       {
-        name: "nodejs",
+        name: "NodeJS",
         color: "text-lime-500",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "text-sky-500",
       },
       {
-        name: "firebase",
+        name: "Firebase",
         color: "text-yellow-500",
       },
     ],
@@ -265,24 +320,24 @@ const projects = [
       "The Airbnb clone is a global platform for finding and booking accommodations. Explore a wide range of listings based on location, amenities, and pricing to easily book your preferred property.",
     tags: [
       {
-        name: "nextjs",
+        name: "NextJS",
         color: "text-white-400",
       },
 
       {
-        name: "react",
+        name: "React",
         color: "text-blue-500",
       },
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "text-green-500",
       },
       {
-        name: "tailwindcss",
+        name: "TailwindCSS",
         color: "text-sky-500",
       },
       {
-        name: "cloudinary",
+        name: "Cloudinary",
         color: "text-blue-600",
       },
     ],
@@ -296,27 +351,27 @@ const projects = [
       "The hotel booking app offers a users to search and book hotels globally. With a vast selection of accommodations, users can easily find their desired hotel based on location, dates, and preferences.",
     tags: [
       {
-        name: "mongodb",
+        name: "MongoDB",
         color: "text-green-500",
       },
       {
-        name: "expressjs",
+        name: "ExpressJS",
         color: "text-gray-400",
       },
       {
-        name: "react",
+        name: "React",
         color: "text-blue-500",
       },
       {
-        name: "nodejs",
+        name: "NodeJS",
         color: "text-lime-500",
       },
       {
-        name: "scss",
+        name: "SCSS",
         color: "text-sky-500",
       },
       {
-        name: "firebase",
+        name: "Firebase",
         color: "text-yellow-500",
       },
     ],
@@ -326,67 +381,67 @@ const projects = [
     project_link: "https://hotelbookingappmern.netlify.app/",
   },
 
-  {
-    name: "Admin Dashboard",
-    description: "Admin Dashboard for the Booking App.",
-    tags: [
-      {
-        name: "mongodb",
-        color: "text-green-500",
-      },
-      {
-        name: "expressjs",
-        color: "text-gray-400",
-      },
-      {
-        name: "react",
-        color: "text-blue-500",
-      },
-      {
-        name: "nodejs",
-        color: "text-lime-500",
-      },
-      {
-        name: "scss",
-        color: "text-sky-500",
-      },
-      {
-        name: "cloudinary",
-        color: "text-blue-600",
-      },
-    ],
-    image: admindashboardbookingapp,
-    source_code_link:
-      "https://github.com/Riyaz-Github-Acc/hotelbookingapp-admindashboard",
-    project_link: "https://hotelbookingapp-admindashboard.netlify.app/",
-  },
+  // {
+  //   name: "Admin Dashboard",
+  //   description: "Admin Dashboard for the Booking App.",
+  //   tags: [
+  //     {
+  //       name: "MongoDB",
+  //       color: "text-green-500",
+  //     },
+  //     {
+  //       name: "ExpressJS",
+  //       color: "text-gray-400",
+  //     },
+  //     {
+  //       name: "React",
+  //       color: "text-blue-500",
+  //     },
+  //     {
+  //       name: "NodeJS",
+  //       color: "text-lime-500",
+  //     },
+  //     {
+  //       name: "SCSS",
+  //       color: "text-sky-500",
+  //     },
+  //     {
+  //       name: "Cloudinary",
+  //       color: "text-blue-600",
+  //     },
+  //   ],
+  //   image: admindashboardbookingapp,
+  //   source_code_link:
+  //     "https://github.com/Riyaz-Github-Acc/hotelbookingapp-admindashboard",
+  //   project_link: "https://hotelbookingapp-admindashboard.netlify.app/",
+  // },
 
-  {
-    name: "React Commerce",
-    description:
-      "Effortlessly browse, filter, and add products to your cart for seamless checkout on our ecommerce website.",
-    tags: [
-      {
-        name: "react",
-        color: "text-blue-500",
-      },
-      {
-        name: "redux",
-        color: "text-purple-500",
-      },
-      {
-        name: "scss",
-        color: "text-sky-500",
-      },
-      {
-        name: "strapi",
-        color: "text-blue-700",
-      },
-    ],
-    image: reactcommerce,
-    source_code_link: "https://github.com/Riyaz-Github-Acc/react-commerce",
-    project_link: "https://ecommercewebsitereact.netlify.app/",
-  },
+  // {
+  //   name: "React Commerce",
+  //   description:
+  //     "Effortlessly browse, filter, and add products to your cart for seamless checkout on our ecommerce website.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "text-blue-500",
+  //     },
+  //     {
+  //       name: "Redux",
+  //       color: "text-purple-500",
+  //     },
+  //     {
+  //       name: "SCSS",
+  //       color: "text-sky-500",
+  //     },
+  //     {
+  //       name: "strapi",
+  //       color: "text-blue-700",
+  //     },
+  //   ],
+  //   image: reactcommerce,
+  //   source_code_link: "https://github.com/Riyaz-Github-Acc/react-commerce",
+  //   project_link: "https://ecommercewebsitereact.netlify.app/",
+  // },
 ];
 
 export {

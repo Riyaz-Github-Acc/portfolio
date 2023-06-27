@@ -35,6 +35,8 @@ import phone from "./contact/phone.png";
 import email from "./contact/email.png";
 import address from "./contact/address.png";
 
+import merneshopadmin from "./mern-e-shop-admin.png";
+import merneshop from "./mern-e-shop.png";
 import merneshopapi from "./mern-e-shop-api.png";
 import recipeapp from "./recipe-app.png";
 import airbnbclone from "./airbnb-clone.png";
@@ -83,6 +85,8 @@ export {
   hotelbookingapp,
   admindashboardbookingapp,
   reactcommerce,
+  merneshopadmin,
+  merneshop,
   merneshopapi,
   reactcert,
   nodecert,
