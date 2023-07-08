@@ -37,7 +37,7 @@ const CertificateCard = ({ index, name, image, certificate_link }) => {
   );
 };
 
-const Works = () => {
+const Certificates = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -58,4 +58,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "work");
+export default SectionWrapper(Certificates, "work");
