@@ -46,11 +46,11 @@ const Certificates = () => {
       </motion.div>
 
       <div className="mt-20 flex flex-wrap gap-7">
-        {certificates.map((project, index) => (
+        {certificates.map((certificate, index) => (
           <CertificateCard
-            key={`project-${index}`}
+            key={`certificate-${index}`}
             index={index}
-            {...project}
+            {...certificate}
           />
         ))}
       </div>
