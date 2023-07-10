@@ -134,6 +134,7 @@ const technologies = [
   //   name: "Firebase",
   //   icon: firebase,
   // },
+
   {
     name: "Material UI",
     icon: mui,
@@ -153,18 +154,22 @@ const technologies = [
     name: "Next JS",
     icon: nextjs,
   },
+
   {
     name: "Redux Toolkit",
     icon: redux,
   },
+
   {
     name: "Git",
     icon: git,
   },
+
   {
     name: "GitHub",
     icon: github,
   },
+
   // {
   //   name: "Jest",
   //   icon: jest,

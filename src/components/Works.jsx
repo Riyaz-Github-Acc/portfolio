@@ -113,7 +113,11 @@ const ProjectCard = ({
   project_link,
 }) => {
   return (
-    <div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      onClick={() => window.open(project_link, "_blank")}
+      className="cursor-pointer"
+    >
       <Tilt
         options={{
           max: 45,
@@ -122,10 +126,7 @@ const ProjectCard = ({
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div
-          onClick={() => window.open(project_link, "_blank")}
-          className="relative w-full h-[230px] cursor-pointer"
-        >
+        <div className="relative w-full h-[230px] cursor-pointer">
           <img
             src={image}
             alt="project_image"
