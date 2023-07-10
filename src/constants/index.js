@@ -11,6 +11,7 @@ import {
   tailwind,
   nodejs,
   mongodb,
+  mysql,
   git,
   firebase,
   mui,
@@ -113,32 +114,41 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
+
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Node JS",
+    icon: nodejs,
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Firebase",
-    icon: firebase,
-  },
-  {
-    name: "Material UI",
-    icon: mui,
-  },
-  ,
+
   {
     name: "Express JS",
     icon: exjs,
   },
 
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "TypeScript",
+    icon: typescript,
   },
+
+  // {
+  //   name: "Firebase",
+  //   icon: firebase,
+  // },
+  {
+    name: "Material UI",
+    icon: mui,
+  },
+
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+
+  {
+    name: "Tailwind CSS",
+    icon: tailwind,
+  },
+
   {
     name: "Next JS",
     icon: nextjs,
@@ -155,14 +165,14 @@ const technologies = [
     name: "GitHub",
     icon: github,
   },
-  {
-    name: "Jest",
-    icon: jest,
-  },
-  {
-    name: "React Testing Library",
-    icon: reacttestinglibrary,
-  },
+  // {
+  //   name: "Jest",
+  //   icon: jest,
+  // },
+  // {
+  //   name: "React Testing Library",
+  //   icon: reacttestinglibrary,
+  // },
   //   {
   //     name: "Webpack",
   //     icon: webpack,
