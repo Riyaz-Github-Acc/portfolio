@@ -212,6 +212,11 @@ const experiences = [
     company_name: "Designosoft",
     date: "Aug 2022 - Apr 2023",
   },
+  {
+    title: "Web Developer",
+    company_name: "Blaze Web Services",
+    date: "Aug 2023 - Present",
+  },
 ];
 
 const projects = [
@@ -268,32 +273,32 @@ const projects = [
     source_code_link: "https://github.com/Riyaz-Github-Acc/mern-e-shop",
     project_link: "https://merneshop.netlify.app/",
   },
-  {
-    name: "MERNeShop API",
-    description:
-      "This ECommerce API offers a wide range of endpoints and functionalities to manage products, inventory, orders, customers, payments, and more.",
-    tags: [
-      {
-        name: "MongoDB",
-        color: "text-green-500",
-      },
-      {
-        name: "ExpressJS",
-        color: "text-gray-400",
-      },
-      {
-        name: "NodeJS",
-        color: "text-lime-500",
-      },
-      {
-        name: "Cloudinary",
-        color: "text-blue-600",
-      },
-    ],
-    image: merneshopapi,
-    source_code_link: "https://github.com/Riyaz-Github-Acc/mern-e-shop-api",
-    project_link: "https://mern-e-shop-api.onrender.com/",
-  },
+  // {
+  //   name: "MERNeShop API",
+  //   description:
+  //     "This ECommerce API offers a wide range of endpoints and functionalities to manage products, inventory, orders, customers, payments, and more.",
+  //   tags: [
+  //     {
+  //       name: "MongoDB",
+  //       color: "text-green-500",
+  //     },
+  //     {
+  //       name: "ExpressJS",
+  //       color: "text-gray-400",
+  //     },
+  //     {
+  //       name: "NodeJS",
+  //       color: "text-lime-500",
+  //     },
+  //     {
+  //       name: "Cloudinary",
+  //       color: "text-blue-600",
+  //     },
+  //   ],
+  //   image: merneshopapi,
+  //   source_code_link: "https://github.com/Riyaz-Github-Acc/mern-e-shop-api",
+  //   project_link: "https://mern-e-shop-api.onrender.com/",
+  // },
 
   {
     name: "Recipe App",
@@ -329,72 +334,72 @@ const projects = [
     source_code_link: "https://github.com/Riyaz-Github-Acc/mern-recipe-app",
     project_link: "https://recipeappmern.netlify.app/",
   },
-  {
-    name: "Aibnb Clone",
-    description:
-      "The Airbnb clone is a global platform for finding and booking accommodations. Explore a wide range of listings based on location, amenities, and pricing to easily book your preferred property.",
-    tags: [
-      {
-        name: "NextJS",
-        color: "text-white-400",
-      },
+  // {
+  //   name: "Aibnb Clone",
+  //   description:
+  //     "The Airbnb clone is a global platform for finding and booking accommodations. Explore a wide range of listings based on location, amenities, and pricing to easily book your preferred property.",
+  //   tags: [
+  //     {
+  //       name: "NextJS",
+  //       color: "text-white-400",
+  //     },
 
-      {
-        name: "React",
-        color: "text-blue-500",
-      },
-      {
-        name: "MongoDB",
-        color: "text-green-500",
-      },
-      {
-        name: "TailwindCSS",
-        color: "text-sky-500",
-      },
-      {
-        name: "Cloudinary",
-        color: "text-blue-600",
-      },
-    ],
-    image: airbnbclone,
-    source_code_link: "https://github.com/Riyaz-Github-Acc/next-airbnb",
-    project_link: "https://nextjs-rent-app.vercel.app/",
-  },
-  {
-    name: "Hotel Booking App",
-    description:
-      "The hotel booking app offers a users to search and book hotels globally. With a vast selection of accommodations, users can easily find their desired hotel based on location, dates, and preferences.",
-    tags: [
-      {
-        name: "MongoDB",
-        color: "text-green-500",
-      },
-      {
-        name: "ExpressJS",
-        color: "text-gray-400",
-      },
-      {
-        name: "React",
-        color: "text-blue-500",
-      },
-      {
-        name: "NodeJS",
-        color: "text-lime-500",
-      },
-      {
-        name: "SCSS",
-        color: "text-sky-500",
-      },
-      {
-        name: "Firebase",
-        color: "text-yellow-500",
-      },
-    ],
-    image: hotelbookingapp,
-    source_code_link:
-      "https://github.com/Riyaz-Github-Acc/ui-mern-bookings-app/",
-    project_link: "https://hotelbookingappmern.netlify.app/",
-  },
+  //     {
+  //       name: "React",
+  //       color: "text-blue-500",
+  //     },
+  //     {
+  //       name: "MongoDB",
+  //       color: "text-green-500",
+  //     },
+  //     {
+  //       name: "TailwindCSS",
+  //       color: "text-sky-500",
+  //     },
+  //     {
+  //       name: "Cloudinary",
+  //       color: "text-blue-600",
+  //     },
+  //   ],
+  //   image: airbnbclone,
+  //   source_code_link: "https://github.com/Riyaz-Github-Acc/next-airbnb",
+  //   project_link: "https://nextjs-rent-app.vercel.app/",
+  // },
+  // {
+  //   name: "Hotel Booking App",
+  //   description:
+  //     "The hotel booking app offers a users to search and book hotels globally. With a vast selection of accommodations, users can easily find their desired hotel based on location, dates, and preferences.",
+  //   tags: [
+  //     {
+  //       name: "MongoDB",
+  //       color: "text-green-500",
+  //     },
+  //     {
+  //       name: "ExpressJS",
+  //       color: "text-gray-400",
+  //     },
+  //     {
+  //       name: "React",
+  //       color: "text-blue-500",
+  //     },
+  //     {
+  //       name: "NodeJS",
+  //       color: "text-lime-500",
+  //     },
+  //     {
+  //       name: "SCSS",
+  //       color: "text-sky-500",
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "text-yellow-500",
+  //     },
+  //   ],
+  //   image: hotelbookingapp,
+  //   source_code_link:
+  //     "https://github.com/Riyaz-Github-Acc/ui-mern-bookings-app/",
+  //   project_link: "https://hotelbookingappmern.netlify.app/",
+  // },
 
   // {
   //   name: "Admin Dashboard",
