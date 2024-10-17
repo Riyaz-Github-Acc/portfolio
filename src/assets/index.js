@@ -30,7 +30,6 @@ import exjs from "./tech/exjs.png";
 import nextjs from "./tech/nextjs.png";
 import github from "./tech/github.png";
 import jest from "./tech/jest.png";
-import reacttestinglibrary from "./tech/reacttestinglibrary.png";
 
 import phone from "./contact/phone.png";
 import email from "./contact/email.png";
@@ -77,7 +76,6 @@ export {
   exjs,
   nextjs,
   jest,
-  reacttestinglibrary,
   github2,
   phone,
   email,

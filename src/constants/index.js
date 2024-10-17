@@ -19,7 +19,6 @@ import {
   nextjs,
   github,
   jest,
-  reacttestinglibrary,
   recipeapp,
   airbnbclone,
   hotelbookingapp,
@@ -191,7 +190,7 @@ const contacts = [
   },
 
   {
-    title: "riyazofficeid@gmail.com",
+    title: "riyazofficial0@gmail.com",
     icon: email,
   },
 
