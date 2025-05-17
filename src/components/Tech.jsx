@@ -1,15 +1,15 @@
-import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
+import { SectionWrapper } from "../hoc";
 
 const Tech = () => {
   return (
-    <div className="flex flex-row flex-wrap  justify-center gap-10 ">
+    <div className="flex flex-wrap justify-center gap-10">
       {technologies.map((tech) => (
         <div
           key={tech.name}
-          className="w-20 flex items-center justify-center bg-white rounded-full p-3"
+          className="w-16 h-16 flex items-center justify-center bg-white rounded-full p-2 overflow-hidden"
         >
-          <img src={tech.icon} alt="" />
+          <img src={tech.icon} alt={tech.name} className="object-contain w-full h-full" />
         </div>
       ))}
     </div>

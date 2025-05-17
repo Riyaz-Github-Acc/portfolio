@@ -1,37 +1,32 @@
 import {
+  address,
+  aws,
   backend,
   creator,
-  web,
-  javascript,
-  typescript,
-  html,
   css,
+  docker,
+  email,
+  exjs,
+  git,
+  html,
+  javascript,
+  merneshop,
+  merneshopadmin,
+  mongodb,
+  mysql,
+  nextjs,
+  nodecert,
+  nodejs,
+  phone,
+  postgresql,
+  reactcert,
   reactjs,
   redux,
   tailwind,
-  nodejs,
-  mongodb,
-  mysql,
-  git,
-  firebase,
-  mui,
-  exjs,
-  nextjs,
-  github,
-  jest,
-  recipeapp,
-  airbnbclone,
-  hotelbookingapp,
-  admindashboardbookingapp,
-  reactcommerce,
-  merneshopadmin,
-  merneshop,
-  merneshopapi,
-  phone,
-  email,
-  address,
-  reactcert,
-  nodecert,
+  tanstackQuery,
+  typescript,
+  web,
+  zustand
 } from "../assets";
 
 export const navLinks = [
@@ -105,43 +100,20 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-
-  {
-    name: "Express JS",
-    icon: exjs,
-  },
 
   {
     name: "TypeScript",
     icon: typescript,
   },
 
-  // {
-  //   name: "Firebase",
-  //   icon: firebase,
-  // },
-
   {
-    name: "Material UI",
-    icon: mui,
+    name: "React JS",
+    icon: reactjs,
   },
 
   {
-    name: "MySQL",
-    icon: mysql,
+    name: "Next JS",
+    icon: nextjs,
   },
 
   {
@@ -150,8 +122,13 @@ const technologies = [
   },
 
   {
-    name: "Next JS",
-    icon: nextjs,
+    name: "Tanstack Query",
+    icon: tanstackQuery,
+  },
+
+  {
+    name: "Zustand",
+    icon: zustand,
   },
 
   {
@@ -165,18 +142,65 @@ const technologies = [
   },
 
   {
-    name: "GitHub",
-    icon: github,
+    name: "Node JS",
+    icon: nodejs,
   },
+
+  {
+    name: "Express JS",
+    icon: exjs,
+  },
+
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+  },
+
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+
+  {
+    name: "Docker",
+    icon: docker,
+  },
+
+  {
+    name: "AWS",
+    icon: aws,
+  },
+
+  // {
+  //   name: "Firebase",
+  //   icon: firebase,
+  // },
+
+  // {
+  //   name: "Material UI",
+  //   icon: mui,
+  // },
+
+  // {
+  //   name: "GitHub",
+  //   icon: github,
+  // },
 
   // {
   //   name: "Jest",
   //   icon: jest,
   // },
+
   // {
   //   name: "React Testing Library",
   //   icon: reacttestinglibrary,
   // },
+
   //   {
   //     name: "Webpack",
   //     icon: webpack,
@@ -214,7 +238,7 @@ const experiences = [
   {
     title: "Web Developer",
     company_name: "Blaze Web Services",
-    date: "Aug 2023 - Present",
+    date: "Aug 2023 - Feb 2025",
   },
 ];
 
@@ -299,40 +323,41 @@ const projects = [
   //   project_link: "https://mern-e-shop-api.onrender.com/",
   // },
 
-  {
-    name: "Recipe App",
-    description:
-      "The recipe app lets users post, save, and delete recipes, building their own collection. Discover new recipes from others and enjoy a seamless cooking experience with this user-friendly app.",
-    tags: [
-      {
-        name: "MongoDB",
-        color: "text-green-500",
-      },
-      {
-        name: "ExpressJS",
-        color: "text-gray-400",
-      },
-      {
-        name: "React",
-        color: "text-blue-500",
-      },
-      {
-        name: "NodeJS",
-        color: "text-lime-500",
-      },
-      {
-        name: "CSS",
-        color: "text-sky-500",
-      },
-      {
-        name: "Firebase",
-        color: "text-yellow-500",
-      },
-    ],
-    image: recipeapp,
-    source_code_link: "https://github.com/Riyaz-Github-Acc/mern-recipe-app",
-    project_link: "https://recipeappmern.netlify.app/",
-  },
+  // {
+  //   name: "Recipe App",
+  //   description:
+  //     "The recipe app lets users post, save, and delete recipes, building their own collection. Discover new recipes from others and enjoy a seamless cooking experience with this user-friendly app.",
+  //   tags: [
+  //     {
+  //       name: "MongoDB",
+  //       color: "text-green-500",
+  //     },
+  //     {
+  //       name: "ExpressJS",
+  //       color: "text-gray-400",
+  //     },
+  //     {
+  //       name: "React",
+  //       color: "text-blue-500",
+  //     },
+  //     {
+  //       name: "NodeJS",
+  //       color: "text-lime-500",
+  //     },
+  //     {
+  //       name: "CSS",
+  //       color: "text-sky-500",
+  //     },
+  //     {
+  //       name: "Firebase",
+  //       color: "text-yellow-500",
+  //     },
+  //   ],
+  //   image: recipeapp,
+  //   source_code_link: "https://github.com/Riyaz-Github-Acc/mern-recipe-app",
+  //   project_link: "https://recipeappmern.netlify.app/",
+  // },
+
   // {
   //   name: "Aibnb Clone",
   //   description:
@@ -464,10 +489,8 @@ const projects = [
 ];
 
 export {
-  services,
-  technologies,
-  experiences,
-  projects,
-  contacts,
-  certificates,
+  certificates, contacts, experiences,
+  projects, services,
+  technologies
 };
+
